@@ -1,16 +1,48 @@
-﻿namespace SRIP_EventosDelegados {
+﻿using System;
+
+namespace SRIP_EventosDelegados {
+
     class Controller {
 
-        Model model;
-        View view;
+        //iniciar componentes do programa
+        View view = new View();
+        Model model = new Model();
 
-        public Controller() {
-            model = new Model();
-            view = new View();
-        }
+        //eventos e delegados
+        public delegate void ApresentarLogin();
+        public event ApresentarLogin Login;
+
+        public delegate void ApresentarInterface();
+        public event ApresentarInterface Interface;
+
+        public delegate void ValidarCamposDados();
+        public event ValidarCamposDados Dados;
+
+        public delegate void GerarRelatorio();
+        public event GerarRelatorio Relatorio;
+
+        public delegate void FecharSessão();
+        public event FecharSessão Encerrar;
+
+
         public void IniciarPrograma() {
-           View view = new View();
-           view.ApresentarLogin();
+
+            //associar controller com a view para apresentar a interface de login
+            Login += view.ApresentarLogin;
+
         }
-    }
+
+        public void IntroduzirLogin(string login)
+        {
+
+            //associar controller com o model para verificar o login (metodo booleano retorna true se o login for valido)
+            login += model.VerificarLogin;
+
+            if (VerificarLogin(login)) {
+
+                //associar controller com a view para apresentar a interface do programa
+                Interface += view.ApresentarInterface;
+            }
+        }
+    }    
 }
