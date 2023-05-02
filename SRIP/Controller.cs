@@ -9,8 +9,8 @@
             view = new View();
         }
         public void IniciarPrograma() {
-            Vista vista = new Vista();
-            vista.Iniciar();
+           View view = new View();
+           view.ApresentarLogin();
         }
     }
 }
