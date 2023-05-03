@@ -13,8 +13,5 @@ namespace SRIP_EventosDelegados {
         {
             Console.WriteLine("Apresentar interface do programa");
         }
-
-=======
->>>>>>> 0584e0c5045c668576d437c18d49ae087064ef58
     }
 }

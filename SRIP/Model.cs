@@ -12,8 +12,5 @@ namespace SRIP_EventosDelegados {
 
             return true;
         }
-
-=======
->>>>>>> 0584e0c5045c668576d437c18d49ae087064ef58
     }
 }
