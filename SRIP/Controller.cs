@@ -15,16 +15,6 @@ namespace SRIP_EventosDelegados {
         public delegate void ApresentarInterface();
         public event ApresentarInterface Interface;
 
-        public delegate void ValidarCamposDados();
-        public event ValidarCamposDados Dados;
-
-        public delegate void GerarRelatorio();
-        public event GerarRelatorio Relatorio;
-
-        public delegate void FecharSessão();
-        public event FecharSessão Encerrar;
-
-
         public void IniciarPrograma() {
 
             //associar controller com a view para apresentar a interface de login
