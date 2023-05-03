@@ -8,4 +8,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SRIP
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\tfbento\Source\Repos\FP-s\SRIP\SRIP\
+=======
 build_property.ProjectDir = C:\Users\Tiago Bento\Source\Repos\FP-s\SRIP\SRIP\
+>>>>>>> 0584e0c5045c668576d437c18d49ae087064ef58
