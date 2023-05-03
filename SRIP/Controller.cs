@@ -4,9 +4,9 @@ namespace SRIP_EventosDelegados {
 
     class Controller {
 
-        //iniciar componentes do programa
-        View view = new View();
-        Model model = new Model();
+        //componentes do programa
+        private View view;
+        private Model model;
 
         //eventos e delegados
         public delegate void ApresentarLogin();
@@ -15,7 +15,12 @@ namespace SRIP_EventosDelegados {
         public delegate void ApresentarInterface();
         public event ApresentarInterface Interface;
 
+        //metodos
         public void IniciarPrograma() {
+
+            //iniciar componentes do programa
+            view = new View();
+            model = new Model();
 
             //associar controller com a view para apresentar a interface de login
             Login += view.ApresentarLogin;
