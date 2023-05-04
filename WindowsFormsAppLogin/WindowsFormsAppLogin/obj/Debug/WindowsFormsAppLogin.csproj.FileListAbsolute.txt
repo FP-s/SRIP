@@ -1,0 +1,11 @@
+C:\Users\csamp\source\repos\WindowsFormsAppLogin\WindowsFormsAppLogin\bin\Debug\WindowsFormsAppLogin.exe.config
+C:\Users\csamp\source\repos\WindowsFormsAppLogin\WindowsFormsAppLogin\bin\Debug\WindowsFormsAppLogin.exe
+C:\Users\csamp\source\repos\WindowsFormsAppLogin\WindowsFormsAppLogin\bin\Debug\WindowsFormsAppLogin.pdb
+C:\Users\csamp\source\repos\WindowsFormsAppLogin\WindowsFormsAppLogin\obj\Debug\WindowsFormsAppLogin.csproj.AssemblyReference.cache
+C:\Users\csamp\source\repos\WindowsFormsAppLogin\WindowsFormsAppLogin\obj\Debug\WindowsFormsAppLogin.Form1.resources
+C:\Users\csamp\source\repos\WindowsFormsAppLogin\WindowsFormsAppLogin\obj\Debug\WindowsFormsAppLogin.Properties.Resources.resources
+C:\Users\csamp\source\repos\WindowsFormsAppLogin\WindowsFormsAppLogin\obj\Debug\WindowsFormsAppLogin.csproj.GenerateResource.cache
+C:\Users\csamp\source\repos\WindowsFormsAppLogin\WindowsFormsAppLogin\obj\Debug\WindowsFormsAppLogin.csproj.CoreCompileInputs.cache
+C:\Users\csamp\source\repos\WindowsFormsAppLogin\WindowsFormsAppLogin\obj\Debug\WindowsFormsAppLogin.exe
+C:\Users\csamp\source\repos\WindowsFormsAppLogin\WindowsFormsAppLogin\obj\Debug\WindowsFormsAppLogin.pdb
+C:\Users\csamp\source\repos\WindowsFormsAppLogin\WindowsFormsAppLogin\obj\Debug\WindowsFormsAppLogin.MenuRegisto.resources
